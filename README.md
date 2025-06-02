@@ -13,6 +13,7 @@ Se entrenaron 3 clases:
 - Lentes
 - Mouse
 - Teclado
+  
 El modelo fue exportado para uso web (`model.json`, `metadata.json`, `.bin`) y cargado dinámicamente desde JavaScript.
 
 ## 🌐 Tecnologías usadas
