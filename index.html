@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detector de Sonidos con Teachable Machine</title>
+  <!-- 1. Carga primero TensorFlow.js -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.9.0/dist/tf.min.js"></script>
+
+<!-- 2. Luego carga Teachable Machine Image -->
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.4/dist/teachablemachine-image.min.js"></script>
+
+<!-- 3. Finalmente tu script personalizado -->
+<script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Reconocimiento de Objetos</h1>
+  <div id="webcam"></div>
+  <p id="label">Esperando modelo...</p>
+  <button onclick="start()">Iniciar detección</button>
+  <!-- Imagen que se actualiza automáticamente -->
+<div style="margin-top: 20px;">
+  <img id="imageDisplay" src="" alt="" width="200">
+</div>
+</body>
+
+</html>
